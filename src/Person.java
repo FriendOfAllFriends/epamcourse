@@ -5,12 +5,9 @@ public class Person {
     int age;
     String country;
 
+    
     public Person(int id, String name, String lastName, int age, String country) {
         this.id = id;
-        this.name = name;
-        this.lastName = lastName;
-        this.age = age;
-        this.country = country;
     }
 
     public int getId() {

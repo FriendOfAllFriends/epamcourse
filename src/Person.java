@@ -3,12 +3,22 @@ public class Person {
     String lastName;
     int age;
     String country;
+    String adress;
 
-    public Person(String name, String lastName, int age, String country) {
+    public Person(String name, String lastName, int age, String country, String adress) {
         this.name = name;
         this.lastName = lastName;
         this.age = age;
         this.country = country;
+        this.adress = adress;
+    }
+
+    public String getAdress() {
+        return adress;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
     }
 
     public String getName() {
